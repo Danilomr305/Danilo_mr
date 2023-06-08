@@ -57,12 +57,19 @@ display: block;
 
 .menu {
     height: 60px;
-    border-bottom: 1.5 solid #fff;
+    border-bottom: .5px solid #000;
+    color: #00ec85;
+    
+    align-items: center ;
+    
 }
 
+.icon {
+    display: flex;
 
+}
 
-.content {
+.apresentacao {
     position: relative;
     width: 100%;
     display: flex;
@@ -71,14 +78,14 @@ display: block;
     margin-top: 50px;
 }
 
-.content > p {
+.apresentacao > p {
     font-weight: bold;
     margin-left: 100px;
     margin-right: 100px;
     margin-bottom: 40px;
 }
 
-.content > img {
+.apresentacao > img {
     margin-right: 150px;
     border-radius: calc(50%);
 
