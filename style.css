@@ -14,7 +14,7 @@
 }
 
 body {
-    background-color: var(--cor1);
+    background-color: white;
 }
 
 header {
@@ -37,6 +37,30 @@ text-align: center;
 margin: auto;
 display: block;
 }
+
+.container {
+    width: 350px;
+    height: 400px;
+    background: #200a3f;
+    border-radius: 0px 5px 5px 0px;
+
+}
+
+.btn {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.btn .arrow {
+    padding: 0 12px;
+}
+
+.menu {
+    height: 60px;
+    border-bottom: 1.5 solid #fff;
+}
+
+
 
 .content {
     position: relative;
