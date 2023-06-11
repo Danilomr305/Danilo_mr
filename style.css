@@ -6,9 +6,76 @@
     --cor2:#edf6f9;
     --cor3:#ffddd2;
     --cor4:#e29578;
+
+    --cor10:#00EC85;
+    --cor11:#200a3f;
 }
 
 *{
     margin: 0px;
     padding: 0px;
+    border: 0px;
 }
+
+html, body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    height: 100%;
+}
+
+.container {
+    width: 250px;
+    height: 100%;
+    background-color:var(--cor11);
+}
+
+.btn {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.btn , arrow {
+    padding: 0 12px;
+}
+
+.menu {
+    height: 60px;
+    border-bottom: .5px solid #000;
+    color: var(--cor10);
+    display: flex;
+}
+
+.menu:hover {
+    padding-left: 7px;
+    background-color: #1a0a31;
+    transition: .3s;
+}
+
+.icon {
+    flex: 1;
+    min-width: 35px;
+    max-width: 60px;
+    padding-left: 2px;
+    color: var(--cor10);
+}
+
+.txt {
+    flex: 5;
+    padding-left: 25px;
+    color: #fff;
+}
+
+.oculto {
+    width: 70px;
+}
+
+.oculto .txt {
+    display: none;
+}
+
+
+
+
+
